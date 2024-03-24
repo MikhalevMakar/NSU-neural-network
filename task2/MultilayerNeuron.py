@@ -6,7 +6,7 @@ from neural_network.task2.ActivationNeuron import ActivationNeuron
 class MultilayerNeuron:
     def __init__(self, neurons: [[ActivationNeuron]]):
         self.neurons: [[ActivationNeuron]] = neurons
-        self.__education_speed = 0.65
+        self.__education_speed = 0.4
 
     def run(self) -> float:
         for layer in self.neurons[:-1]:
@@ -52,7 +52,7 @@ class MultilayerNeuron:
 
     def update_input_values(self, values: ndarray):
         for i, inp_neuron in enumerate(self.neurons[0]):
-            inp_neuron.set_sum(values[i + 1])
+            inp_neuron.set_sum(values[i+1])
 
     def zeroing_net(self):
         for layer in self.neurons:

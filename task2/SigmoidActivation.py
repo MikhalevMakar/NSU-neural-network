@@ -37,8 +37,8 @@ class SigmoidActivation:
     def activation8(self, x: float) -> float:
         return self.sigmoid(x, 0.9)
 
-    def get_activation_function(self):
-        return self.activations_func[random.randint(0, len(self.activations_func) - 1)]
+    def get_activation_function(self, i):
+        return self.activations_func[i % len(self.activations_func)]
 
     @staticmethod
     def x(x: float) -> float:
