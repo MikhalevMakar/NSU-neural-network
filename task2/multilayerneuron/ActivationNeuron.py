@@ -1,5 +1,5 @@
-from neural_network.task2 import LinkNeuron
-from neural_network.task2.Neuron import Neuron
+from neural_network.task2.multilayerneuron import LinkNeuron
+from neural_network.task2.multilayerneuron.Neuron import Neuron
 
 
 class ActivationNeuron(Neuron):

@@ -1,6 +1,6 @@
 from numpy import ndarray
 
-from neural_network.task2.ActivationNeuron import ActivationNeuron
+from neural_network.task2.multilayerneuron.ActivationNeuron import ActivationNeuron
 
 
 class MultilayerNeuron:

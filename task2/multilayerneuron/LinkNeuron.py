@@ -1,4 +1,4 @@
-from neural_network.task2 import Neuron
+from neural_network.task2.multilayerneuron import Neuron
 
 
 class LinkNeuron:
