@@ -3,7 +3,7 @@ from sklearn.preprocessing import MinMaxScaler
 from neural_network.task2.multilayerneuron.ActivationNeuron import ActivationNeuron
 from neural_network.task2.multilayerneuron.LinkCreator import LinkCreator
 from neural_network.task2.multilayerneuron.MultilayerNeuron import MultilayerNeuron
-from neural_network.task2.SigmoidActivation import SigmoidActivation
+from neural_network.task2.utils.SigmoidActivation import SigmoidActivation
 from sklearn.model_selection import train_test_split
 
 
