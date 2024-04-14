@@ -52,7 +52,7 @@ class MultilayerNeuron:
 
     def update_input_values(self, values: ndarray):
         for i, inp_neuron in enumerate(self.neurons[0]):
-            inp_neuron.set_sum(values[i+1])
+            inp_neuron.set_sum(values[i])
 
     def zeroing_net(self):
         for layer in self.neurons:
